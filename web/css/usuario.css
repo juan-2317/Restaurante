@@ -1,0 +1,39 @@
+body {
+    background-image: url(../images/admin.jpg);
+}
+
+div.cabecera {
+    text-align: right;
+}
+
+nav.menus {
+    display: block;
+    font-size: 16px;
+}
+
+nav.menus ul {
+    list-style: none;
+}
+
+nav.menus ul li {
+    float: left;
+}
+
+nav.menus ul li a {
+    background-color: #1F039C;
+    padding: 10px 20px;
+    display: block;
+    color: #fff;
+    text-decoration: none;
+    width: 350px;
+}
+
+nav.menus ul li a:hover {
+    background-color: #75ACEC;
+}
+
+.navegacion {
+    margin-top: 10px;
+    height: 900px;
+    width: 100%;
+}

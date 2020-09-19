@@ -1,0 +1,46 @@
+body {
+    background-image: url(../images/consulta.jpg);
+}
+
+div.tabla {
+    margin-left: 10%;
+    margin-right: 35%;
+}
+
+h1 {
+    text-align: center;
+}
+
+div.tabla table.lista_bd {
+    border-collapse: collapse;
+    width: 100%;
+}
+
+div.tabla table.lista_bd, div.tabla table.lista_bd tbody tr td,
+div.tabla table.lista_bd thead tr th, div.tabla table.lista_bd thead tr,
+div.tabla table.lista_bd tbody tr, div.tabla table.lista_bd thead, div.tabla table.lista_bd tbody {
+    border: 1px solid white;
+}
+
+div.tabla table.lista_bd thead {
+    background-color: rgb(99, 153, 211);
+    color: #FFF;
+}
+
+div.tabla table.lista_bd tbody tr:nth-child(even) { /* Filas impares */
+    background-color: rgb(213, 219, 237);
+}
+
+div.tabla table.lista_bd tbody tr:nth-child(odd) { /* Filas pares */
+    background-color: rgb(235, 239, 247);
+}
+
+div.tabla table.lista_bd thead tr th {
+    width: 200px;
+    height: 25px;
+}
+
+div.tabla table.lista_bd tbody tr td {
+    width: inherit;
+    height: 30px;
+}
